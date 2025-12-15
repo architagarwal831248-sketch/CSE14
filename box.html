@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Inline</title>
+</head>
+<body style="background:#233142; font-family:Arial, sans-serif; color:white; text-align:center; padding-top:40px;">
+
+<h1 style="margin-bottom:40px; font-size:36px;">CSS Box Model</h1>
+
+<div style="background:#ff7043; padding:40px; display:inline-block; position:relative;">
+    <span style="position:absolute; left:50%; transform:translateX(-50%); top:8px; font-size:18px; font-weight:bold;">
+        Margin
+    </span>
+
+    <div style="background:#0288d1; padding:40px; position:relative;">
+        <span style="position:absolute; left:50%; transform:translateX(-50%); top:8px; font-size:18px; font-weight:bold;">
+            Border
+        </span>
+
+        <div style="background:#ffca28; padding:40px; position:relative;">
+            <span style="position:absolute; left:50%; transform:translateX(-50%); top:8px; font-size:18px; font-weight:bold;">
+                Padding
+            </span>
+
+            <div style="background:#26a69a; padding:60px; position:relative; font-size:20px; color:white;">
+                <span style="position:absolute; left:50%; transform:translateX(-50%); top:8px; font-size:18px; font-weight:bold;">
+                    Content
+                </span>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
